@@ -10,7 +10,7 @@ view: etl_jobs {
   }
 
   dimension: release {
-    sql: 1 ;;
+    sql: 2 ;;
   }
 
   dimension_group: completed {
