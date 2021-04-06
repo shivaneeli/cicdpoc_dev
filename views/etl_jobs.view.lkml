@@ -9,6 +9,10 @@ view: etl_jobs {
     sql: ${TABLE}."ID" ;;
   }
 
+  dimension: release {
+    sql: 1 ;;
+  }
+
   dimension_group: completed {
     type: time
     timeframes: [
