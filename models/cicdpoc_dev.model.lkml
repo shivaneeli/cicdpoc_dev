@@ -2,7 +2,7 @@ connection: "snowlooker"
 
 # include all the views
 include: "/views/**/*.view"
-include: "/Customer_Lifetime_Value.dashboard"
+include: "/**/*.dashboard"
 
 datagroup: cicdpoc_dev_default_datagroup {
   # sql_trigger: SELECT MAX(id) FROM etl_log;;
