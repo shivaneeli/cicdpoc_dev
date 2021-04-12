@@ -1,5 +1,5 @@
 - dashboard: customer_lifetime_value
-  title: Customer Lifetime Value
+  title: Customer Lifetime Value V2
   layout: newspaper
   preferred_viewer: dashboards-next
   elements:
